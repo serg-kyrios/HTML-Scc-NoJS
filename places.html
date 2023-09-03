@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My favorite places</title>
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+   <style>
+.card {
+  border-radius: 1em;
+  text-align: center;
+}
+.card:hover {
+  background-color: rgb(0, 0, 0, 0.1);
+}
+.card img {
+  border-radius:50%;
+  width: 60%;
+  margin: auto;
+  padding: 1em;
+}
+   </style>
+   	<script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script> 
+     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+     <link rel="manifest" href="/site.webmanifest" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container">
+         <a class="navbar-brand p-0" href="#"> <img src="./content/KS.png" alt=""></a>  //p-0=Робимо відступи в круг нульовими
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="/">Home</a> //Переход
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="places.html">Favorie places</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+   <div class="container my-5">     <!-- my-5 Отступ з верху--> 
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+    <div class="col">
+        <div class="card">
+        <img src="https://picsum.photos/id/16/300" class="card-img-top" alt="My image">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="https://picsum.photos/id/16/1600" 
+          target="_blank" class="btn btn-primary">Large Photo</a>
+        </div>
+      </div>
+    </div>  
+    <div class="col">
+      <div class="card">
+      <img src="https://picsum.photos/id/54/300" class="card-img-top" alt="My image">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="https://picsum.photos/id/54/1600" 
+         target="_blank" class="btn btn-primary">Large Photo</a> 
+         <!-- Ссилка на карточку,відкриття в новій вкладці -->
+      </div>
+    </div>
+  </div> 
+  <div class="col">
+    <div class="card">
+    <img src="https://picsum.photos/id/13/300" class="card-img-top" alt="My image">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="https://picsum.photos/id/13/1600" 
+      target="_blank" class="btn btn-primary">Large Photo</a>
+    </div>
+  </div>
+</div> 
+  </div>
+</div>
+</body>
+</html>
